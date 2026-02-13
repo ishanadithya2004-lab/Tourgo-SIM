@@ -1,0 +1,23 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="simGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#00D2FF" />
+            <stop offset="100%" stop-color="#3A7BD5" />
+        </linearGradient>
+        <filter id="glow">
+            <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <rect x="150" y="50" width="300" height="200" rx="20" ry="20" fill="url(#simGradient)" filter="url(#glow)" />
+    <path d="M 150 100 L 200 50" stroke="rgba(255,255,255,0.2)" stroke-width="2" />
+    <circle cx="400" cy="100" r="15" fill="#FFD700" />
+    <rect x="200" y="100" width="100" height="80" rx="10" fill="rgba(0,0,0,0.2)" />
+    <text x="300" y="150" font-family="Arial" font-size="24" fill="white" text-anchor="middle" font-weight="bold">TourGo</text>
+    <text x="300" y="180" font-family="Arial" font-size="14" fill="white" text-anchor="middle" letter-spacing="2">TRAVEL SIM</text>
+    <path d="M 400 200 Q 450 250 550 220" stroke="white" stroke-width="2" fill="none" stroke-dasharray="5,5" />
+    <circle cx="550" cy="220" r="5" fill="#FF6B6B" />
+</svg>

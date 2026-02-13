@@ -1,0 +1,15 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+    <!-- Car -->
+    <path d="M 100 200 L 120 160 H 220 L 240 200 V 240 H 100 V 200" fill="#00D2FF" stroke="white" stroke-width="2"/>
+    <circle cx="130" cy="240" r="15" fill="#333" />
+    <circle cx="210" cy="240" r="15" fill="#333" />
+    
+    <!-- Tuk Tuk (Three Wheeler abstract) -->
+    <path d="M 350 240 L 350 180 Q 350 150 400 150 H 450 V 240 H 350" fill="#FFD700" stroke="white" stroke-width="2" />
+    <circle cx="450" cy="240" r="15" fill="#333" />
+    <circle cx="370" cy="240" r="12" fill="#333" />
+    
+    <!-- Location Pin -->
+    <path d="M 280 100 Q 300 80 320 100 Q 340 120 300 180 Q 260 120 280 100" fill="#FF6B6B" />
+    <circle cx="300" cy="110" r="8" fill="white" />
+</svg>
